@@ -1,7 +1,7 @@
 const path = require("path");
 
 const nodeConfig = {
-  entry: "./src/index.ts",
+  entry: "./examples/client/vue3/src/index.ts",
   mode: "none",
   module: {
     rules: [
@@ -22,7 +22,7 @@ const nodeConfig = {
 };
 
 const browserConfig = {
-  entry: "./src/index.ts",
+  entry: "./examples/client/vue3/src/index.ts",
   mode: "none",
   module: {
     rules: [
