@@ -16,7 +16,7 @@
     "recordrtc"
   ],
   "license": "MIT",
-    "scripts": {
+  "scripts": {
     "build": "rm -r dist/ && tsc && npx webpack --config webpack.config.js && cp dist/bundle.js examples/client/html/bundle.js"
   },
   "dependencies": {
