@@ -1,5 +1,4 @@
-{
-  "name": "media-socket",
+name": "media-socket",
   "displayName": "Media-Socket",
   "version": "0.0.2-b",
   "main": "./dist/src/index.js",
